@@ -8,7 +8,12 @@
   },
   "CommonML": {
     "exports": [
-      "Bi_io"
+      "Bi_inbuf",
+      "Bi_io",
+      "Bi_outbuf",
+      "Bi_share",
+      "Bi_stream",
+      "Bi_util"
     ],
     "compileFlags": ["-w -3"]
   }
