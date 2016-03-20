@@ -2,6 +2,7 @@ open Printf
 
 open Bi_outbuf
 open Bi_inbuf
+open OcamlEasy_format
 
 type node_tag = int
 
@@ -835,7 +836,7 @@ let array_map f a =
 
 module Pp =
 struct
-  open OcamlEasy_format.Easy_format
+  open Easy_format
 
   let array = list
   let record = list
