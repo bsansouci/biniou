@@ -9,6 +9,7 @@
   "CommonML": {
     "exports": [
       "Bi_io"
-    ]
+    ],
+    "compileFlags": ["-w -3"]
   }
 }
