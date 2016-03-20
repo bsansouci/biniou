@@ -1,0 +1,14 @@
+{
+  "name": "OcamlBiniou",
+  "version": "1.0.9",
+  "description": "Ocaml's Biniou for CommonML",
+  "dependencies": {
+    "OcamlEasy_format": "git://github.com/bsansouci/easy-format.git",
+    "CommonML": "git://github.com/jordwalke/CommonML.git"
+  },
+  "CommonML": {
+    "exports": [
+      "Biniou"
+    ]
+  }
+}
