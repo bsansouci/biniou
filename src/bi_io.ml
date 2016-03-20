@@ -835,7 +835,7 @@ let array_map f a =
 
 module Pp =
 struct
-  open Easy_format
+  open OcamlEasy_format.Easy_format
 
   let array = list
   let record = list
